@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">МираМед favicon</title>
+  <defs>
+    <linearGradient id="g" x1="10" y1="9" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#23D3C3"/>
+      <stop offset=".58" stop-color="#19C7D4"/>
+      <stop offset="1" stop-color="#1D6FD6"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#071827"/>
+  <path d="M13 45 21 19l11 26 8-22 7 19c3 7.8 9 5.8 10.8-2.2" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10 33h9l3.4-7.4 5.4 16 4.1-8.6h8c4.7 0 6-7.8 12.8-8.5 4.1-.5 6.3 2.4 6.3 5.7 0 5.6-5.2 11-15.6 12.6" fill="none" stroke="#FFFFFF" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="43.5" cy="43" r="3.8" fill="#4ED6A3"/>
+</svg>

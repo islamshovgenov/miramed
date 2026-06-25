@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">МираМед Bioequivalence favicon</title>
+  <defs>
+    <linearGradient id="g1" x1="8" y1="17" x2="56" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#23D3C3"/>
+      <stop offset="1" stop-color="#1D6FD6"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="9" y1="23" x2="57" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4ED6A3"/>
+      <stop offset="1" stop-color="#19C7D4"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#071827"/>
+  <path d="M10 45c8-8 10-25 20-26 11.5-1.5 13 22 20.5 26 3.2 1.7 6.3 1.1 8.4-1.5" fill="none" stroke="url(#g1)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M10 51c8.5-7.5 12-24 21-25 10.5-1.2 13 19 21 23 3 1.5 5.3 1.2 7.2-.5" fill="none" stroke="url(#g2)" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="30" cy="20" r="3.6" fill="#FFFFFF"/>
+  <path d="M43 31c0-3.6 3.6-6.5 3.6-6.5s3.6 2.9 3.6 6.5a3.6 3.6 0 0 1-7.2 0Z" fill="#4ED6A3"/>
+</svg>

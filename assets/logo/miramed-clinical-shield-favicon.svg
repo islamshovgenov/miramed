@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">МираМед Clinical Shield favicon</title>
+  <defs>
+    <linearGradient id="g" x1="13" y1="9" x2="52" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#23D3C3"/>
+      <stop offset=".52" stop-color="#19C7D4"/>
+      <stop offset="1" stop-color="#1D6FD6"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#071827"/>
+  <path d="M32 10c8.4 5.5 16.2 5.9 21.5 7.4v14.5c0 12.5-8.2 21.3-21.5 27.1-13.3-5.8-21.5-14.6-21.5-27.1V17.4C15.8 15.9 23.6 15.5 32 10Z" fill="none" stroke="url(#g)" stroke-width="4"/>
+  <path d="M17 40 24 24l8 17 7-16 6 14" fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 34h8l2.6-5.2L31 40l3.4-6h13" fill="none" stroke="#23D3C3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="47" cy="34" r="3.5" fill="#4ED6A3"/>
+</svg>

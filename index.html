@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>document.documentElement.classList.add("js");</script>
+  <meta name="theme-color" content="#081927" />
+  <title>ООО “МираМед” — исследовательский центр биоэквивалентности и клинических исследований</title>
+  <meta name="description" content="ООО “МираМед” — единственный специализированный центр в Южном федеральном округе для проведения исследований биоэквивалентности и клинических исследований I–III фаз: 50 коек, ПИТ с ИВЛ, хранение −80 °C, протоколы и статистические отчеты" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="ООО “МираМед” — исследовательский центр биоэквивалентности" />
+  <meta property="og:description" content="Единственный специализированный центр в Южном федеральном округе для проведения исследований биоэквивалентности и клинических исследований I–III фаз. Майкоп, Республика Адыгея." />
+  <meta property="og:image" content="assets/media/tour-poster.jpg" />
+
+  <link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "ООО «МираМед»",
+    "alternateName": "ООО «МИРАМЕД»",
+    "foundingDate": "2022-06-10",
+    "telephone": ["+7-928-461-19-49", "+7-989-141-41-08"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Калинина, д. 210с/4",
+      "addressLocality": "Майкоп",
+      "addressRegion": "Республика Адыгея",
+      "addressCountry": "RU"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="ООО МираМед — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg class="brand-logo-svg" viewBox="0 0 96 96" focusable="false">
+            <defs>
+              <linearGradient id="brandPulseGradient" x1="16" y1="18" x2="82" y2="78" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#23D3C3"/>
+                <stop offset=".55" stop-color="#19C7D4"/>
+                <stop offset="1" stop-color="#1D6FD6"/>
+              </linearGradient>
+            </defs>
+            <rect class="brand-logo-field" x="6" y="6" width="84" height="84" rx="22"/>
+            <path class="brand-logo-m" d="M20 67 31 30l16 37 12-32 10 26c4.6 11.8 14.2 8.7 17-3.5"/>
+            <path class="brand-logo-pulse" d="M16 50h12l5-11 8 23 6-12h11c6.6 0 8.8-11.4 18-12.5 6-.7 9.5 3.4 9.5 8.7 0 8.2-8.2 16.3-23.5 18.2"/>
+            <circle class="brand-logo-sample" cx="63" cy="64" r="5"/>
+            <circle class="brand-logo-sample-ring" cx="63" cy="64" r="8.5"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">МираМед</span>
+          <span class="brand-sub">Исследовательский центр</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
+        <a href="#about">О центре</a>
+        <a href="#services">Услуги</a>
+        <a href="#bioequivalence">Биоэквивалентность</a>
+        <a href="#infrastructure">Инфраструктура</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="btn btn-primary header-cta" href="#contacts">
+        Обсудить исследование
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" aria-hidden="true">
+          <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Мобильная навигация">
+        <a href="#about">О центре</a>
+        <a href="#services">Услуги</a>
+        <a href="#bioequivalence">Биоэквивалентность</a>
+        <a href="#usability">Пользовательские тестирования</a>
+        <a href="#infrastructure">Инфраструктура</a>
+        <a href="#process">Процесс</a>
+        <a href="#team">Команда</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="btn btn-primary btn-block" href="#contacts">Обсудить исследование</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-research-bg" aria-hidden="true">
+        <div class="hero-gradient"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-particles">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <svg class="hero-data-panel" viewBox="0 0 900 520" preserveAspectRatio="xMidYMid slice">
+          <path class="panel-line panel-line-soft" d="M64 338H166L188 338 212 294 244 386 274 338H368L394 338 420 318 452 344 486 338H586L616 338 646 286 690 394 724 338H842" />
+          <path class="panel-line panel-line-main" d="M64 338H166L188 338 212 294 244 386 274 338H368L394 338 420 318 452 344 486 338H586L616 338 646 286 690 394 724 338H842" />
+          <path class="panel-pk" d="M112 408 C158 397 174 328 224 274 C286 206 360 222 422 278 C496 344 584 382 770 390" />
+          <g class="panel-samples">
+            <circle cx="224" cy="274" r="5" />
+            <circle cx="422" cy="278" r="5" />
+            <circle cx="646" cy="286" r="5" />
+            <circle cx="690" cy="394" r="5" />
+          </g>
+          <path class="panel-axis" d="M96 426H812M96 426V112" />
+          <path class="panel-grid-line" d="M96 362H812M96 298H812M96 234H812M96 170H812M218 426V112M340 426V112M462 426V112M584 426V112M706 426V112" />
+        </svg>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Майкоп · Республика Адыгея · Южный федеральный округ</p>
+          <h1 id="hero-title">Биоэквивалентность и клинические исследования в Южном федеральном округе</h1>
+          <p class="hero-lead">
+            ООО “МираМед” — единственный специализированный центр в Южном федеральном округе для проведения исследований биоэквивалентности и клинических исследований I–III фаз. Клиническая база, 50 коек, ПИТ с ИВЛ, хранение образцов до −80 °C и сопровождение проекта от протокола до статистического отчета.
+          </p>
+
+          <ul class="hero-proof" aria-label="Ключевые возможности центра">
+            <li><strong>50</strong> коек</li>
+            <li><strong>90+</strong> исследований</li>
+            <li><strong>I–III</strong> фазы</li>
+            <li><strong>−80 °C</strong> хранение</li>
+            <li><strong>ПИТ</strong> с ИВЛ</li>
+          </ul>
+
+          <div class="hero-actions" aria-label="Основные действия">
+            <a class="btn btn-primary" href="#contacts">Обсудить исследование</a>
+            <a class="btn btn-secondary" href="#infrastructure">Посмотреть инфраструктуру</a>
+            <a class="btn btn-ghost" href="#services">Услуги центра</a>
+          </div>
+        </div>
+
+        <div class="command-center reveal" aria-label="Показатели исследовательского центра">
+          <p class="panel-kicker">Исследовательская панель</p>
+          <div class="signal-row">
+            <span class="signal-dot"></span>
+            <span>Биоэквивалентность · Фармакокинетика · Статистика</span>
+          </div>
+          <dl class="dashboard-metrics">
+            <div>
+              <dt>Опыт</dt>
+              <dd><span class="count-up" data-target="90" data-suffix="+">90+</span></dd>
+            </div>
+            <div>
+              <dt>Койки</dt>
+              <dd><span class="count-up" data-target="50">50</span></dd>
+            </div>
+            <div>
+              <dt>Хранение</dt>
+              <dd>−80 °C</dd>
+            </div>
+            <div>
+              <dt>Процессы</dt>
+              <dd>СОП</dd>
+            </div>
+          </dl>
+          <svg class="mini-pk" viewBox="0 0 320 120" role="img" aria-label="Схематичная фармакокинетическая кривая">
+            <path class="axis" d="M24 96H296M24 96V18" />
+            <path class="draw-path" d="M32 94 C60 88 72 50 100 35 C132 18 154 36 180 55 C218 82 250 90 292 92" />
+            <circle cx="100" cy="35" r="4" />
+            <circle cx="180" cy="55" r="4" />
+          </svg>
+        </div>
+
+        <div class="floating-chips" aria-hidden="true">
+          <span class="data-chip chip-one">Cmax</span>
+          <span class="data-chip chip-two">AUC0–t</span>
+          <span class="data-chip chip-three">Tmax</span>
+          <span class="data-chip chip-four">90% ДИ</span>
+        </div>
+      </div>
+
+      <svg class="hero-ecg" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+        <path class="ecg-glow" d="M0 70H135L164 70 188 30 223 96 249 70H370L395 70 420 48 455 74 488 70H612L642 70 672 24 716 102 747 70H890L925 70 950 54 982 72 1012 70H1200" />
+        <path class="ecg-line" d="M0 70H135L164 70 188 30 223 96 249 70H370L395 70 420 48 455 74 488 70H612L642 70 672 24 716 102 747 70H890L925 70 950 54 982 72 1012 70H1200" />
+      </svg>
+    </section>
+
+    <section class="section intro-band" id="about">
+      <div class="container two-column">
+        <div class="section-copy reveal">
+          <p class="kicker">О центре</p>
+          <h2>Клиническая исследовательская база с реальной инфраструктурой</h2>
+          <p class="lead">
+            ООО “МираМед” — специализированный исследовательский центр для фармацевтических компаний, контрактных исследовательских организаций и спонсоров исследований. Центр проводит исследования биоэквивалентности, клинические исследования I–III фаз и пользовательские тестирования листков-вкладышей.
+          </p>
+          <p>
+            Работа центра строится вокруг точного выполнения протокола: маршрутизация добровольцев, контроль временных точек, дозирование, отбор и обработка биологических образцов, хранение плазмы до −80 °C, мониторинг безопасности и подготовка исследовательской документации.
+          </p>
+        </div>
+
+        <div class="about-facts reveal">
+          <article>
+            <span>50</span>
+            <h3>Коек</h3>
+            <p>Размещение добровольцев и организация клинического дня исследования.</p>
+          </article>
+          <article>
+            <span>БИО</span>
+            <h3>Биообразцы</h3>
+            <p>Отбор, центрифугирование, подготовка плазмы и контроль временных точек.</p>
+          </article>
+          <article>
+            <span>−80</span>
+            <h3>Хранение −80 °C</h3>
+            <p>Морозильное хранение плазмы и биологических образцов.</p>
+          </article>
+          <article>
+            <span>ПИТ</span>
+            <h3>ПИТ + ИВЛ</h3>
+            <p>Инфраструктура для мониторинга безопасности и клинического реагирования.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why-section" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Почему МираМед</p>
+          <h2 id="why-title">Инфраструктура, процедуры и команда в одном исследовательском контуре</h2>
+        </div>
+
+        <div class="metrics-strip">
+          <article class="metric reveal">
+            <span class="metric-number count-up" data-target="90" data-suffix="+">0</span>
+            <span class="metric-label">исследований биоэквивалентности с 2022 года</span>
+          </article>
+          <article class="metric reveal">
+            <span class="metric-number count-up" data-target="50">0</span>
+            <span class="metric-label">коек для размещения добровольцев</span>
+          </article>
+          <article class="metric reveal">
+            <span class="metric-number count-up" data-target="10" data-suffix="+">0</span>
+            <span class="metric-label">лет опыта у ключевых специалистов</span>
+          </article>
+          <article class="metric reveal">
+            <span class="metric-number" aria-label="минус 80 градусов Цельсия">−80 °C</span>
+            <span class="metric-label">морозильное хранение плазмы и образцов</span>
+          </article>
+        </div>
+
+        <div class="advantage-grid">
+          <article class="advantage reveal">
+            <h3>Исследования биоэквивалентности</h3>
+            <p>Организация клинической части, дозирование, отбор образцов, мониторинг безопасности и работа по графику процедур.</p>
+          </article>
+          <article class="advantage reveal">
+            <h3>Пользовательские тестирования</h3>
+            <p>Проведение тестирований листков-вкладышей и материалов для пациентов с фиксацией результатов и отчетностью.</p>
+          </article>
+          <article class="advantage reveal">
+            <h3>Протокол и статистический отчет</h3>
+            <p>Участие в подготовке протокола, форм документации, статистического плана, фармакокинетических расчетов и итоговых материалов.</p>
+          </article>
+          <article class="advantage reveal">
+            <h3>ПИТ с аппаратом ИВЛ</h3>
+            <p>Инфраструктура для контроля безопасности участников исследования и реагирования в клинических ситуациях.</p>
+          </article>
+          <article class="advantage reveal">
+            <h3>СОП и регламентированные процессы</h3>
+            <p>Стандартные операционные процедуры, контроль временных точек, документирование и взаимодействие со спонсором.</p>
+          </article>
+          <article class="advantage reveal">
+            <h3>Южный федеральный округ</h3>
+            <p>Единственный специализированный центр в Южном федеральном округе для проведения исследований биоэквивалентности и клинических исследований I–III фаз.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Услуги центра</p>
+          <h2>Клиническая база, документация и аналитическое сопровождение</h2>
+          <p>Каждая услуга встроена в общий маршрут исследования: от дизайна и набора участников до обработки образцов, фармакокинетики и отчета.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">БЭ</span>
+            <h3>Исследования биоэквивалентности</h3>
+            <p>Организация и проведение клинической части исследований биоэквивалентности лекарственных препаратов: госпитализация добровольцев, дозирование, отбор биологических образцов, мониторинг безопасности, обработка и хранение образцов.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">КИ</span>
+            <h3>Клинические исследования лекарственных препаратов</h3>
+            <p>Проведение клинических исследований лекарственных препаратов с участием подготовленной исследовательской команды, медицинской инфраструктуры и регламентированных процессов.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">ЛВ</span>
+            <h3>Пользовательские тестирования листков-вкладышей</h3>
+            <p>Проведение пользовательских тестирований листков-вкладышей и материалов для пациентов в соответствии с требованиями к оценке понятности информации для пользователя.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">ПР</span>
+            <h3>Разработка протокола исследования</h3>
+            <p>Подготовка структуры протокола, дизайна исследования, графика процедур, критериев включения/невключения, критериев оценки безопасности и эффективности.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">МД</span>
+            <h3>Медицинская документация</h3>
+            <p>Подготовка и сопровождение клинической документации, форм первичной документации, электронных ИРК, СОП и исследовательских материалов.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">ФК</span>
+            <h3>Фармакокинетический и статистический отчет</h3>
+            <p>Подготовка статистического плана, анализ данных, расчет фармакокинетических параметров, оценка биоэквивалентности, формирование статистического и клинического отчета.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section be-section" id="bioequivalence">
+      <div class="container">
+        <div class="be-layout">
+          <div class="section-copy reveal">
+            <p class="kicker">Биоэквивалентность под ключ</p>
+            <h2>От протокола до статистического отчета</h2>
+            <p class="lead">
+              Мы можем участвовать не только в проведении клинической части исследования, но и в подготовке ключевой исследовательской документации: протокола, графика процедур, форм документации, статистического плана, фармакокинетического и статистического анализа, итогового отчета.
+            </p>
+          </div>
+
+          <div class="pk-panel reveal">
+            <div class="pk-title-row">
+              <span>Концентрация во времени</span>
+              <strong>Фармакокинетическая кривая</strong>
+            </div>
+            <svg class="pk-chart" viewBox="0 0 520 260" role="img" aria-label="Анимированная кривая концентрация-время">
+              <defs>
+                <linearGradient id="pkGradient" x1="0" x2="1" y1="0" y2="0">
+                  <stop offset="0" stop-color="#21e6c1" />
+                  <stop offset=".5" stop-color="#49c7ff" />
+                  <stop offset="1" stop-color="#8be56f" />
+                </linearGradient>
+              </defs>
+              <path class="chart-grid" d="M54 36V214M54 214H486M54 169H486M54 124H486M54 79H486M140 214V36M226 214V36M312 214V36M398 214V36" />
+              <path class="axis" d="M54 214H486M54 214V36" />
+              <path class="draw-path pk-line" d="M62 210 C86 205 98 170 118 120 C146 48 185 36 230 75 C274 113 302 154 350 176 C393 196 434 207 478 209" />
+              <g class="pk-points">
+                <circle cx="118" cy="120" r="5" />
+                <circle cx="230" cy="75" r="5" />
+                <circle cx="350" cy="176" r="5" />
+              </g>
+              <text x="226" y="58">Cmax</text>
+              <text x="385" y="232">время</text>
+            </svg>
+            <ul class="pk-tags">
+              <li title="Площадь под кривой концентрация-время">AUC0–t</li>
+              <li title="Максимальная концентрация">Cmax</li>
+              <li title="Время достижения максимальной концентрации">Tmax</li>
+              <li title="Доверительный интервал">90% ДИ</li>
+            </ul>
+          </div>
+        </div>
+
+        <ol class="be-flow reveal" aria-label="Этапы сопровождения биоэквивалентности">
+          <li class="workflow-node"><span>01</span>Дизайн исследования</li>
+          <li class="workflow-node"><span>02</span>Протокол</li>
+          <li class="workflow-node"><span>03</span>Рандомизация</li>
+          <li class="workflow-node"><span>04</span>Госпитализация</li>
+          <li class="workflow-node"><span>05</span>Дозирование</li>
+          <li class="workflow-node"><span>06</span>Отбор образцов</li>
+          <li class="workflow-node"><span>07</span>Обработка и хранение</li>
+          <li class="workflow-node"><span>08</span>Фармакокинетический анализ</li>
+          <li class="workflow-node"><span>09</span>Статистический отчет</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section process-section" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Процесс исследования</p>
+          <h2>Путь исследования биоэквивалентности</h2>
+          <p>Маршрут проекта визуализирован как поток данных: добровольцы, клинические процедуры, обработка образцов, биоаналитика, фармакокинетика и итоговая отчетность.</p>
+        </div>
+
+        <div class="process-rail reveal">
+          <svg class="process-pulse" viewBox="0 0 1200 150" preserveAspectRatio="none" aria-hidden="true">
+            <path class="draw-path" d="M10 78H118L142 78 166 36 197 113 226 78H334L365 78 392 54 421 84 452 78H560L586 78 616 32 655 118 688 78H800L828 78 858 50 892 82 924 78H1040L1072 78 1100 42 1136 108 1172 78H1190" />
+          </svg>
+
+          <ol class="process-grid" aria-label="Клинический маршрут исследования">
+            <li class="process-card">
+              <span class="process-index">01</span>
+              <h3>Добровольцы</h3>
+              <p>Набор, скрининг, маршрутизация и подготовка участников к госпитализации.</p>
+            </li>
+            <li class="process-card">
+              <span class="process-index">02</span>
+              <h3>Госпитализация</h3>
+              <p>Размещение в клинической базе, информирование, контроль процедур.</p>
+            </li>
+            <li class="process-card">
+              <span class="process-index">03</span>
+              <h3>Дозирование</h3>
+              <p>Прием исследуемого препарата в соответствии с протоколом и рандомизацией.</p>
+            </li>
+            <li class="process-card">
+              <span class="process-index">04</span>
+              <h3>Точки крови</h3>
+              <p>Отбор биообразцов по временным точкам с контролем расписания.</p>
+              <span class="time-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+            </li>
+            <li class="process-card">
+              <span class="process-index">05</span>
+              <h3>Центрифугирование</h3>
+              <p>Обработка образцов на стандартных и холодовых центрифугах.</p>
+            </li>
+            <li class="process-card">
+              <span class="process-index">06</span>
+              <h3>Хранение −80 °C</h3>
+              <p>Плазма и биоматериал помещаются в морозильное оборудование.</p>
+            </li>
+            <li class="process-card">
+              <span class="process-index">07</span>
+              <h3>Биоаналитика</h3>
+              <p>Передача данных и образцов в аналитический контур проекта.</p>
+            </li>
+            <li class="process-card">
+              <span class="process-index">08</span>
+              <h3>Фармакокинетика и статистика</h3>
+              <p>Расчет фармакокинетических параметров и статистическая оценка.</p>
+            </li>
+            <li class="process-card">
+              <span class="process-index">09</span>
+              <h3>Отчет</h3>
+              <p>Клинический и статистический отчет для спонсора исследования.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section usability-section" id="usability">
+      <div class="container usability-layout">
+        <div class="section-copy reveal">
+          <p class="kicker">Пользовательские тестирования</p>
+          <h2>Пользовательские тестирования листков-вкладышей</h2>
+          <p class="lead">
+            ООО “МираМед” проводит пользовательские тестирования листков-вкладышей и материалов для пациента. Центр может организовать набор участников, проведение интервью, фиксацию результатов, анализ ответов и подготовку отчета по результатам тестирования.
+          </p>
+        </div>
+
+        <div class="usability-cards reveal">
+          <article><h3>Подготовка опросника</h3><p>Структура вопросов для оценки понятности текста.</p></article>
+          <article><h3>Набор участников</h3><p>Организация целевых респондентов для тестирования.</p></article>
+          <article><h3>Проведение интервью</h3><p>Фиксация ответов и наблюдений по сценарию.</p></article>
+          <article><h3>Анализ понимания информации</h3><p>Оценка сложных фрагментов и типовых ошибок восприятия.</p></article>
+          <article><h3>Подготовка отчета</h3><p>Структурированный отчет по результатам тестирования.</p></article>
+          <article><h3>Рекомендации по доработке текста</h3><p>Предложения для повышения понятности листка-вкладыша.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section infrastructure-section" id="infrastructure">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Инфраструктура</p>
+          <h2>Возможности центра: койки, процедуры, образцы, безопасность</h2>
+          <p>Инфраструктура центра поддерживает полный клинический маршрут исследования: размещение добровольцев, процедурные зоны, обработку биообразцов, хранение, ПИТ и регламентированные процессы.</p>
+        </div>
+
+        <div class="capacity-board reveal">
+          <div><strong>50</strong><span>коек</span></div>
+          <div><strong>−80 °C</strong><span>хранение плазмы</span></div>
+          <div><strong>ПИТ</strong><span>аппарат ИВЛ</span></div>
+          <div><strong>СОП</strong><span>контроль процессов</span></div>
+          <div><strong>ФК</strong><span>фармакокинетический процесс</span></div>
+        </div>
+
+        <div class="infrastructure-system">
+          <article class="system-card reveal">
+            <span class="system-icon" aria-hidden="true">01</span>
+            <h3>Палаты и размещение</h3>
+            <p>Коечный фонд на 50 мест, зоны пребывания добровольцев и понятная маршрутизация внутри клинического дня.</p>
+          </article>
+          <article class="system-card reveal">
+            <span class="system-icon" aria-hidden="true">02</span>
+            <h3>Процедурные помещения</h3>
+            <p>Организация дозирования, отбора биологических образцов и контроля временных точек исследования.</p>
+          </article>
+          <article class="system-card reveal">
+            <span class="system-icon" aria-hidden="true">03</span>
+            <h3>Оборудование обработки</h3>
+            <p>Стандартные и холодовые центрифуги для подготовки плазмы и первичной обработки биоматериала.</p>
+          </article>
+          <article class="system-card reveal">
+            <span class="system-icon" aria-hidden="true">04</span>
+            <h3>Хранение образцов</h3>
+            <p>Морозильное оборудование для хранения плазмы и биологических образцов до −80 °C.</p>
+          </article>
+          <article class="system-card reveal">
+            <span class="system-icon" aria-hidden="true">05</span>
+            <h3>Безопасность</h3>
+            <p>ПИТ, аппарат ИВЛ, оснащение для клинического реагирования и мониторинг состояния участников.</p>
+          </article>
+          <article class="system-card reveal">
+            <span class="system-icon" aria-hidden="true">06</span>
+            <h3>Документирование</h3>
+            <p>СОП, формы первичной документации, архивирование и контролируемое взаимодействие со спонсором.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section region-section" id="region">
+      <div class="container region-layout">
+        <div class="section-copy reveal">
+          <p class="kicker">Южный федеральный округ</p>
+          <h2>Единственный специализированный центр в Южном федеральном округе</h2>
+          <p class="lead">
+            ООО “МираМед” расположен в г. Майкопе, Республика Адыгея, и является единственным специализированным центром в Южном федеральном округе для проведения исследований биоэквивалентности и клинических исследований I–III фаз.
+          </p>
+          <p>
+            Центр работает как специализированная клиническая база для фармацевтических компаний, контрактных исследовательских организаций и спонсоров исследований: организация клинической части, обработка и хранение биологических образцов до −80 °C, мониторинг безопасности и подготовка исследовательской документации.
+          </p>
+        </div>
+
+        <div class="region-map reveal" aria-label="Карта России с выделенным Южным федеральным округом и центром МираМед в Майкопе">
+          <div class="region-visual russia-visual" aria-hidden="true">
+            <svg viewBox="0 0 860 430">
+              <path class="russia-shape" d="M72 214 118 160 178 150 226 116 294 132 350 92 422 118 486 94 550 126 620 108 674 148 746 150 798 202 760 246 816 292 760 324 690 300 628 332 560 294 498 322 438 284 368 312 302 274 236 292 174 260 118 276Z" />
+              <path class="russia-shape russia-far-east" d="M704 134 780 92 836 124 806 168 744 166Z" />
+              <path class="russia-shape russia-north" d="M278 92 334 58 386 78 354 112Z" />
+              <path class="sfo-shape" d="M112 254 C128 230 154 218 186 225 C216 232 234 254 224 278 C211 306 172 312 140 296 C112 282 100 272 112 254Z" />
+              <path class="sfo-glow" d="M112 254 C128 230 154 218 186 225 C216 232 234 254 224 278 C211 306 172 312 140 296 C112 282 100 272 112 254Z" />
+              <circle class="center-ping" cx="167" cy="270" r="18" />
+              <circle class="center-core" cx="167" cy="270" r="5" />
+              <path class="center-line" d="M167 270 C220 238 282 225 352 224 C460 224 558 254 682 300" />
+            </svg>
+            <span class="map-label map-label-russia">Россия</span>
+            <span class="map-label map-label-sfo">ЮФО</span>
+            <div class="region-pin">
+              <strong>Майкоп</strong>
+              <span>ООО «МираМед»</span>
+            </div>
+          </div>
+          <div class="region-insights">
+            <article>
+              <span>На карте</span>
+              <strong>ЮФО выделен цветом</strong>
+              <p>Показан масштаб: Россия, Южный федеральный округ и точка центра.</p>
+            </article>
+            <article>
+              <span>Центр</span>
+              <strong>Майкоп</strong>
+              <p>Единственная отмеченная точка — исследовательский центр ООО «МираМед».</p>
+            </article>
+            <article>
+              <span>Формат</span>
+              <strong>Биоэквивалентность</strong>
+              <p>Клиническая часть исследований, образцы, безопасность и документация.</p>
+            </article>
+            <article>
+              <span>Инфраструктура</span>
+              <strong>50 коек · −80 °C · ПИТ</strong>
+              <p>Коечный фонд, хранение плазмы, ИВЛ и регламентированные процессы.</p>
+            </article>
+          </div>
+          <div class="map-caption">
+            <strong>Майкоп · Республика Адыгея · ЮФО</strong>
+            <span>центр в точке клинического маршрута: добровольцы · биообразцы · безопасность · документация</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container experience-layout">
+        <div class="section-copy reveal">
+          <p class="kicker">Опыт</p>
+          <h2>90+ исследований биоэквивалентности с 2022 года</h2>
+          <p class="lead">
+            Накопленный опыт позволяет центру организовывать клиническую часть исследований с четкой маршрутизацией добровольцев, соблюдением временных точек, контролем процедур дозирования, отбором и обработкой биологических образцов, мониторингом безопасности и взаимодействием со спонсором.
+          </p>
+        </div>
+
+        <div class="experience-visual reveal">
+          <div class="experience-count">
+            <span class="count-up" data-target="90" data-suffix="+">0</span>
+            <small>исследований биоэквивалентности</small>
+          </div>
+          <div class="mini-bars" aria-label="Схематичный рост количества исследований">
+            <span style="--h: 34%"></span>
+            <span style="--h: 48%"></span>
+            <span style="--h: 62%"></span>
+            <span style="--h: 78%"></span>
+            <span style="--h: 94%"></span>
+          </div>
+          <div class="progress-line" aria-hidden="true"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quality-section" id="quality">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Качество и процессы</p>
+          <h2>Операционная система исследования</h2>
+          <p>Процесс устроен как управляемая исследовательская панель: контроль протокольных процедур, временных точек, безопасности, документации, биообразцов и отчетности.</p>
+        </div>
+
+        <div class="quality-dashboard reveal">
+          <article><span></span><h3>СОП</h3><p>Регламентированные процедуры центра.</p></article>
+          <article><span></span><h3>Контроль протокола</h3><p>Проверка выполнения процедур исследования.</p></article>
+          <article><span></span><h3>Временные точки</h3><p>Соблюдение графика забора образцов.</p></article>
+          <article><span></span><h3>Безопасность добровольцев</h3><p>Медицинский мониторинг и реагирование.</p></article>
+          <article><span></span><h3>Документирование</h3><p>Формы, записи, первичная документация.</p></article>
+          <article><span></span><h3>Обработка биообразцов</h3><p>Центрифугирование и подготовка плазмы.</p></article>
+          <article><span></span><h3>Хранение −80 °C</h3><p>Низкотемпературное хранение образцов.</p></article>
+          <article><span></span><h3>Спонсор исследования</h3><p>Коммуникация и проектная координация.</p></article>
+          <article><span></span><h3>Отчетность</h3><p>Клинические, фармакокинетические и статистические материалы.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Галерея</p>
+          <h2>Реальная инфраструктура центра</h2>
+          <p>Фото помещений, оборудования, процедурных зон, хранения образцов и элементов безопасности.</p>
+        </div>
+
+        <div class="gallery-filters reveal" aria-label="Фильтры галереи">
+          <button class="filter-btn active" type="button" data-filter="all">Все</button>
+          <button class="filter-btn" type="button" data-filter="wards">Палаты</button>
+          <button class="filter-btn" type="button" data-filter="equipment">Оборудование</button>
+          <button class="filter-btn" type="button" data-filter="procedure">Процедурные</button>
+          <button class="filter-btn" type="button" data-filter="storage">Хранение образцов</button>
+          <button class="filter-btn" type="button" data-filter="safety">Безопасность</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <figure class="gallery-item wide reveal" data-category="procedure" data-cap="Процедурный кабинет: отбор биологических образцов">
+            <img src="assets/media/procedure-room.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="Процедурный кабинет для отбора биологических образцов" />
+            <figcaption>Процедурный кабинет</figcaption>
+          </figure>
+          <figure class="gallery-item tall reveal" data-category="equipment procedure" data-cap="Стандартные центрифуги для обработки биологических образцов">
+            <img src="assets/media/centrifuge-standard.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Стандартные центрифуги для обработки образцов" />
+            <figcaption>Стандартные центрифуги</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="equipment procedure" data-cap="Холодовая центрифуга для температурного режима">
+            <img src="assets/media/centrifuge-cold.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Холодовая центрифуга для обработки образцов" />
+            <figcaption>Холодовая центрифуга</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="storage equipment" data-cap="Морозильное оборудование для хранения образцов до −80 °C">
+            <img src="assets/media/freezer-1.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Морозильник для хранения плазмы до минус 80 градусов" />
+            <figcaption>Морозильник −80 °C</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="storage equipment" data-cap="Морозильное оборудование для биологических образцов">
+            <img src="assets/media/freezer-2.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Морозильное оборудование для хранения биологических образцов" />
+            <figcaption>Хранение образцов</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="storage equipment" data-cap="Низкотемпературное хранение плазмы и образцов">
+            <img src="assets/media/freezer-3.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Морозильное оборудование для низкотемпературного хранения" />
+            <figcaption>Низкотемпературный контур</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="safety equipment" data-cap="Электрокардиограф для мониторинга состояния участников">
+            <img src="assets/media/ecg.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Электрокардиограф с электродами" />
+            <figcaption>ЭКГ-мониторинг</figcaption>
+          </figure>
+          <figure class="gallery-item wide reveal" data-category="wards" data-cap="Зона размещения добровольцев">
+            <img src="assets/media/common-area.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="Зона размещения и пребывания добровольцев" />
+            <figcaption>Зона размещения</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="wards" data-cap="Комната и шкафы для размещения участников">
+            <img src="assets/media/room-cabinet.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Помещение с мебелью для размещения участников" />
+            <figcaption>Помещение участников</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="safety" data-cap="Укладки и средства для оказания неотложной помощи">
+            <img src="assets/media/emergency-cabinet.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Шкаф с укладками для неотложной помощи" />
+            <figcaption>Безопасность</figcaption>
+          </figure>
+          <figure class="gallery-item wide reveal" data-category="equipment procedure" data-cap="Сухожаровой шкаф для стерилизации">
+            <img src="assets/media/sterilizer.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="Сухожаровой шкаф для стерилизации инструментов" />
+            <figcaption>Стерилизация</figcaption>
+          </figure>
+          <figure class="gallery-item wide reveal" data-category="wards" data-cap="Душевые помещения для добровольцев">
+            <img src="assets/media/showers.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="Душевые помещения для добровольцев" />
+            <figcaption>Душевые</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="safety equipment" data-cap="Система обеззараживания воздуха">
+            <img src="assets/media/air-sterilizer.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Бактерицидный рециркулятор для обеззараживания воздуха" />
+            <figcaption>Обеззараживание воздуха</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="safety wards" data-cap="Кнопка вызова медицинского персонала">
+            <img src="assets/media/call-button.jpg" width="960" height="1280" loading="lazy" decoding="async" alt="Кнопка вызова медицинского персонала" />
+            <figcaption>Вызов персонала</figcaption>
+          </figure>
+          <figure class="gallery-item wide reveal" data-category="wards" data-cap="Помещение для хранения личных вещей добровольцев">
+            <img src="assets/media/wardrobe.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="Помещение со стеллажами для хранения личных вещей" />
+            <figcaption>Хранение вещей</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-category="procedure" data-cap="Пост медицинского персонала и зона приема">
+            <img src="assets/media/reception.jpg" width="1280" height="960" loading="lazy" decoding="async" alt="Пост медицинского персонала в исследовательском центре" />
+            <figcaption>Пост персонала</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section" id="team">
+      <div class="container team-layout">
+        <div class="section-copy reveal">
+          <p class="kicker">Команда</p>
+          <h2>Исследовательская команда и медицинская координация</h2>
+          <p class="lead">
+            Команда центра включает врачей-исследователей, анестезиологов-реаниматологов, средний медицинский персонал и специалистов, участвующих в организации клинических исследований, биоэквивалентности, пользовательских тестирований, медицинской документации и статистического сопровождения.
+          </p>
+        </div>
+
+        <div class="team-cards reveal">
+          <article class="person-card">
+            <span class="avatar" aria-hidden="true">ХЗ</span>
+            <div class="person-content">
+              <h3>Хакуринов Заур Юрьевич</h3>
+              <p>Главный врач</p>
+              <span>организационные вопросы · исследования · партнерство</span>
+              <div class="person-actions">
+                <a class="btn btn-secondary" href="tel:+79284611949" aria-label="Позвонить главному врачу">Позвонить</a>
+                <a class="person-phone" href="tel:+79284611949">+7 928 461-19-49</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="person-card">
+            <span class="avatar" aria-hidden="true">ШИ</span>
+            <div class="person-content">
+              <h3>Шовгенов Ислам Русланович</h3>
+              <p>Заместитель главного врача</p>
+              <span>клиническая база · процедуры · взаимодействие с проектом</span>
+              <div class="person-actions">
+                <a class="btn btn-secondary" href="tel:+79891414108" aria-label="Позвонить заместителю главного врача">Позвонить</a>
+                <a class="person-phone" href="tel:+79891414108">+7 989 141-41-08</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section requisites-section" id="requisites">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Реквизиты</p>
+          <h2>Юридическая информация</h2>
+        </div>
+
+        <dl class="requisites-list reveal">
+          <div><dt>Полное наименование</dt><dd>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «МИРАМЕД»</dd></div>
+          <div><dt>Краткое наименование</dt><dd>ООО «МИРАМЕД»</dd></div>
+          <div><dt>Дата регистрации</dt><dd>10.06.2022</dd></div>
+          <div><dt>ОГРН</dt><dd>1220100001450</dd></div>
+          <div><dt>ИНН</dt><dd>0100001978</dd></div>
+          <div><dt>КПП</dt><dd>010001001</dd></div>
+          <div class="wide"><dt>Юридический адрес</dt><dd>Республика Адыгея, г. Майкоп, ул. Калинина, д. 210с/4</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section contacts-section" id="contacts">
+      <div class="container">
+        <div class="final-cta reveal">
+          <p class="kicker">Контакты</p>
+          <h2>Обсудим проведение исследования?</h2>
+          <p>
+            Свяжитесь с ООО “МираМед”, чтобы обсудить клиническую базу, возможности проведения биоэквивалентности, пользовательского тестирования, клинического исследования или подготовки исследовательской документации.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="tel:+79284611949">Позвонить главному врачу</a>
+            <a class="btn btn-secondary" href="tel:+79891414108">Позвонить заместителю главного врача</a>
+            <a class="btn btn-ghost" href="https://yandex.ru/maps/?text=Республика Адыгея, Майкоп, улица Калинина, 210с/4" target="_blank" rel="noopener">Открыть адрес на карте</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="footer-logo" href="#top" aria-label="ООО МираМед — наверх">
+          <span class="footer-mark" aria-hidden="true">
+            <svg class="brand-logo-svg" viewBox="0 0 96 96" focusable="false">
+              <defs>
+                <linearGradient id="footerPulseGradient" x1="16" y1="18" x2="82" y2="78" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#23D3C3"/>
+                  <stop offset=".55" stop-color="#19C7D4"/>
+                  <stop offset="1" stop-color="#1D6FD6"/>
+                </linearGradient>
+              </defs>
+              <rect class="brand-logo-field" x="6" y="6" width="84" height="84" rx="22"/>
+              <path class="brand-logo-m footer-logo-m" d="M20 67 31 30l16 37 12-32 10 26c4.6 11.8 14.2 8.7 17-3.5"/>
+              <path class="brand-logo-pulse" d="M16 50h12l5-11 8 23 6-12h11c6.6 0 8.8-11.4 18-12.5 6-.7 9.5 3.4 9.5 8.7 0 8.2-8.2 16.3-23.5 18.2"/>
+              <circle class="brand-logo-sample" cx="63" cy="64" r="5"/>
+              <circle class="brand-logo-sample-ring" cx="63" cy="64" r="8.5"/>
+            </svg>
+          </span>
+          <span>
+            <span class="footer-name">МираМед</span>
+            <span class="footer-sub">Биоэквивалентность · Клинические исследования</span>
+          </span>
+        </a>
+        <p>Исследовательский центр биоэквивалентности и клинических исследований в г. Майкопе.</p>
+      </div>
+      <nav aria-label="Навигация в подвале">
+        <a href="#services">Услуги</a>
+        <a href="#bioequivalence">Биоэквивалентность</a>
+        <a href="#infrastructure">Инфраструктура</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#requisites">Реквизиты</a>
+      </nav>
+      <div class="footer-contacts">
+        <a href="tel:+79284611949">+7 928 461-19-49</a>
+        <a href="tel:+79891414108">+7 989 141-41-08</a>
+        <span>Республика Адыгея, г. Майкоп, ул. Калинина, д. 210с/4</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© ООО «МираМед», 2022–2026. Информация предназначена для фармацевтических компаний, контрактных исследовательских организаций, спонсоров клинических исследований и партнеров.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Наверх" hidden>
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true">
+      <path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+  <div class="lightbox" id="lightbox" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Просмотр изображения">
+    <button class="lb-close" id="lb-close" type="button" aria-label="Закрыть">×</button>
+    <button class="lb-nav lb-prev" id="lb-prev" type="button" aria-label="Предыдущее изображение">‹</button>
+    <figure class="lb-figure">
+      <img id="lb-img" src="" alt="" />
+      <figcaption id="lb-cap"></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" id="lb-next" type="button" aria-label="Следующее изображение">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

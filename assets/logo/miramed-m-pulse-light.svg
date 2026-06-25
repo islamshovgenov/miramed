@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" role="img" aria-labelledby="title desc">
+  <title id="title">МираМед - M Pulse, светлая версия</title>
+  <desc id="desc">Горизонтальный логотип МираМед со знаком M Pulse и подписью Исследовательский центр.</desc>
+  <defs>
+    <linearGradient id="mm-pulse-g" x1="16" y1="18" x2="82" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#23D3C3"/>
+      <stop offset=".55" stop-color="#19C7D4"/>
+      <stop offset="1" stop-color="#1D6FD6"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(16 16)">
+    <rect x="0" y="0" width="96" height="96" rx="24" fill="#071827"/>
+    <path d="M20 67 31 30l16 37 12-32 10 26c4.6 11.8 14.2 8.7 17-3.5" fill="none" stroke="url(#mm-pulse-g)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M16 50h12l5-11 8 23 6-12h11c6.6 0 8.8-11.4 18-12.5 6-.7 9.5 3.4 9.5 8.7 0 8.2-8.2 16.3-23.5 18.2" fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="63" cy="64" r="5" fill="#4ED6A3"/>
+    <circle cx="63" cy="64" r="8.5" fill="none" stroke="#4ED6A3" stroke-opacity=".26" stroke-width="3"/>
+  </g>
+  <text x="136" y="62" fill="#071827" font-family="Segoe UI, Arial, sans-serif" font-size="43" font-weight="780" letter-spacing="0">МираМед</text>
+  <text x="138" y="91" fill="#526677" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" letter-spacing=".8">Исследовательский центр</text>
+</svg>

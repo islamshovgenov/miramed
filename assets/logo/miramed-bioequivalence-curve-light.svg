@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 128" role="img" aria-labelledby="title desc">
+  <title id="title">МираМед - Bioequivalence Curve, светлая версия</title>
+  <desc id="desc">Горизонтальный логотип с двумя сопоставимыми PK-кривыми.</desc>
+  <defs>
+    <linearGradient id="be-g1" x1="12" y1="25" x2="84" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#23D3C3"/>
+      <stop offset="1" stop-color="#1D6FD6"/>
+    </linearGradient>
+    <linearGradient id="be-g2" x1="16" y1="30" x2="86" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4ED6A3"/>
+      <stop offset="1" stop-color="#19C7D4"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(16 16)">
+    <rect width="96" height="96" rx="24" fill="#071827"/>
+    <path d="M14 68C25 57 28 31 42 29c16-2.3 18 31 28 37 4.7 2.8 9.1 1.9 12-2" fill="none" stroke="url(#be-g1)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M14 76C26 65 31 40 44 38c15-2.2 18 28 29 34 4.1 2.2 7.6 1.8 10.8-1" fill="none" stroke="url(#be-g2)" stroke-width="4.5" stroke-linecap="round" opacity=".9"/>
+    <path d="M28 70V54m20 7V42m20 27V55" stroke="#FFFFFF" stroke-opacity=".3" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="43" cy="30" r="5" fill="#FFFFFF"/>
+    <path d="M61 42c0-5 5-9 5-9s5 4 5 9a5 5 0 0 1-10 0Z" fill="#4ED6A3"/>
+  </g>
+  <text x="136" y="62" fill="#071827" font-family="Segoe UI, Arial, sans-serif" font-size="43" font-weight="780" letter-spacing="0">МираМед</text>
+  <text x="138" y="91" fill="#526677" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" letter-spacing=".8">Биоэквивалентность · Клинические исследования</text>
+</svg>
