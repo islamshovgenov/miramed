@@ -715,6 +715,7 @@ dl {
 .intro-band,
 .services-section,
 .usability-section,
+.special-handling-section,
 .experience-section,
 .requisites-section {
   background: rgba(255, 255, 255, .72);
@@ -782,6 +783,7 @@ dl {
 .service-grid,
 .advantage-grid,
 .infra-grid,
+.handling-grid,
 .quality-dashboard,
 .team-cards {
   display: grid;
@@ -1029,6 +1031,46 @@ dl {
   border-radius: var(--radius);
   font-size: .86rem;
   font-weight: 790;
+}
+
+/* Special handling */
+.handling-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.handling-grid article {
+  min-height: 220px;
+  padding: 24px;
+  color: var(--body);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, .076), rgba(255, 255, 255, .038)),
+    linear-gradient(180deg, rgba(35, 211, 195, .045), rgba(29, 111, 214, .02));
+  border: 1px solid rgba(120, 220, 255, .18);
+  border-radius: var(--radius);
+  box-shadow: 0 16px 42px rgba(0, 0, 0, .18);
+}
+
+.handling-grid span {
+  display: inline-grid;
+  width: 44px;
+  height: 34px;
+  place-items: center;
+  margin-bottom: 18px;
+  color: #06131d;
+  background: linear-gradient(135deg, var(--aqua), var(--green));
+  border-radius: 9px;
+  font-size: .82rem;
+  font-weight: 820;
+}
+
+.handling-grid h3 {
+  margin-bottom: 10px;
+  font-size: 1.08rem;
+}
+
+.handling-grid p {
+  color: var(--body);
+  font-size: .95rem;
 }
 
 .be-flow {
@@ -3370,6 +3412,7 @@ p {
 
   .infrastructure-system,
   .advantage-grid,
+  .handling-grid,
   .service-grid,
   .process-grid,
   .quality-dashboard {
@@ -3443,6 +3486,7 @@ p {
   .metrics-strip,
   .infrastructure-system,
   .advantage-grid,
+  .handling-grid,
   .service-grid,
   .process-grid,
   .quality-dashboard,
@@ -3876,6 +3920,37 @@ p {
 .person-card,
 .process-card {
   border-color: rgba(150, 205, 225, .15);
+}
+
+/* special-handling follows the dark research-console theme */
+.special-handling-section {
+  color: #e9fbff;
+  background:
+    linear-gradient(90deg, rgba(35, 211, 195, .07) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(35, 211, 195, .055) 1px, transparent 1px),
+    radial-gradient(circle at 20% 22%, rgba(35, 211, 195, .12), transparent 34%),
+    radial-gradient(circle at 82% 10%, rgba(29, 111, 214, .18), transparent 30%),
+    linear-gradient(135deg, #061821 0%, #0a2638 54%, #073a42 100%);
+  background-size: 52px 52px, 52px 52px, auto, auto, auto;
+}
+
+.special-handling-section .section-head h2,
+.special-handling-section .handling-grid h3 {
+  color: #ffffff;
+}
+
+.special-handling-section .section-head > p:not(.kicker),
+.special-handling-section .handling-grid p {
+  color: rgba(226, 246, 249, .78);
+}
+
+.special-handling-section .handling-grid article {
+  color: #e9fbff;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, .075), rgba(255, 255, 255, .035)),
+    linear-gradient(180deg, rgba(35, 211, 195, .06), rgba(29, 111, 214, .03));
+  border-color: rgba(120, 220, 255, .18);
+  box-shadow: 0 16px 42px rgba(0, 0, 0, .22);
 }
 
 /* ---------- Responsive re-assertions (after the redesign breakpoints) ---------- */
