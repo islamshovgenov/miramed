@@ -542,20 +542,38 @@
         <div class="region-map reveal" aria-label="Карта России с выделенным Южным федеральным округом и центром МираМед в Майкопе">
           <div class="region-visual russia-visual" aria-hidden="true">
             <svg viewBox="0 0 860 430">
-              <path class="russia-shape" d="M72 214 118 160 178 150 226 116 294 132 350 92 422 118 486 94 550 126 620 108 674 148 746 150 798 202 760 246 816 292 760 324 690 300 628 332 560 294 498 322 438 284 368 312 302 274 236 292 174 260 118 276Z" />
-              <path class="russia-shape russia-far-east" d="M704 134 780 92 836 124 806 168 744 166Z" />
-              <path class="russia-shape russia-north" d="M278 92 334 58 386 78 354 112Z" />
-              <path class="sfo-shape" d="M112 254 C128 230 154 218 186 225 C216 232 234 254 224 278 C211 306 172 312 140 296 C112 282 100 272 112 254Z" />
-              <path class="sfo-glow" d="M112 254 C128 230 154 218 186 225 C216 232 234 254 224 278 C211 306 172 312 140 296 C112 282 100 272 112 254Z" />
-              <circle class="center-ping" cx="167" cy="270" r="18" />
-              <circle class="center-core" cx="167" cy="270" r="5" />
-              <path class="center-line" d="M167 270 C220 238 282 225 352 224 C460 224 558 254 682 300" />
+              <defs>
+                <marker id="maykopArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                  <path d="M0 0 10 5 0 10 2.8 5Z" fill="#23D3C3" />
+                </marker>
+              </defs>
+              <g class="federal-map">
+                <path class="district district-nw" d="M94 205 134 154 196 146 232 118 290 130 330 106 386 124 358 168 306 184 260 170 222 194 170 194 132 236Z" />
+                <path class="district district-central" d="M132 236 170 194 222 194 254 224 232 264 178 270 140 256Z" />
+                <path class="district district-volga" d="M232 264 254 224 306 184 358 168 398 198 382 252 334 292 278 286Z" />
+                <path class="district district-ural" d="M358 168 386 124 452 144 488 124 540 154 514 220 540 286 468 300 382 252 398 198Z" />
+                <path class="district district-siberia" d="M488 124 548 104 610 126 658 112 710 150 698 226 736 284 680 316 616 292 540 286 514 220 540 154Z" />
+                <path class="district district-far-east" d="M658 112 708 82 772 104 808 86 842 126 804 172 828 212 792 244 834 288 782 316 736 284 698 226 710 150Z" />
+                <path class="district district-north-caucasus" d="M132 292 178 270 232 264 214 306 178 324 140 318Z" />
+                <path class="district district-south" d="M88 268 132 236 178 270 132 292 94 292Z" />
+                <path class="district district-island district-arctic-one" d="M308 82 356 56 412 76 372 108Z" />
+                <path class="district district-island district-arctic-two" d="M394 110 430 92 466 108 430 128Z" />
+                <path class="district district-island district-kamchatka" d="M792 206 836 232 820 282 778 250Z" />
+                <path class="district district-island district-sakhalin" d="M752 286 778 318 764 360 742 326Z" />
+                <path class="russia-outline" d="M88 268 94 205 134 154 196 146 232 118 290 130 330 106 386 124 452 144 488 124 548 104 610 126 658 112 708 82 772 104 808 86 842 126 804 172 828 212 792 244 834 288 782 316 736 284 680 316 616 292 540 286 468 300 382 252 334 292 278 286 214 306 178 324 140 318 132 292 94 292Z" />
+              </g>
+              <path class="sfo-glow" d="M88 268 132 236 178 270 132 292 94 292Z" />
+              <path class="sfo-shape" d="M88 268 132 236 178 270 132 292 94 292Z" />
+              <path class="center-line" d="M154 282 C246 238 374 224 504 246 C596 262 662 296 736 326" />
+              <path class="center-arrow" d="M342 260 C286 262 218 272 154 282" marker-end="url(#maykopArrow)" />
+              <circle class="center-ping" cx="154" cy="282" r="17" />
+              <circle class="center-core" cx="154" cy="282" r="5" />
             </svg>
             <span class="map-label map-label-russia">Россия</span>
             <span class="map-label map-label-sfo">ЮФО</span>
             <div class="region-pin">
-              <strong>Майкоп</strong>
-              <span>ООО «МираМед»</span>
+              <strong>ООО «МираМед»</strong>
+              <span>Майкоп · Республика Адыгея</span>
             </div>
           </div>
           <div class="region-insights">

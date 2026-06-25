@@ -2992,29 +2992,72 @@ p {
   min-height: 340px;
 }
 
-.russia-shape {
-  fill: rgba(29, 111, 214, .11);
-  stroke: rgba(120, 220, 255, .3);
-  stroke-width: 2;
-  stroke-linejoin: round;
+.federal-map {
+  filter: drop-shadow(0 18px 38px rgba(29, 111, 214, .16));
 }
 
-.russia-far-east,
-.russia-north {
+.district {
   fill: rgba(29, 111, 214, .08);
+  stroke: rgba(120, 220, 255, .34);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.district-nw,
+.district-central {
+  fill: rgba(35, 211, 195, .08);
+}
+
+.district-volga,
+.district-ural {
+  fill: rgba(78, 214, 163, .07);
+}
+
+.district-siberia {
+  fill: rgba(25, 199, 212, .08);
+}
+
+.district-far-east {
+  fill: rgba(29, 111, 214, .1);
+}
+
+.district-north-caucasus {
+  fill: rgba(120, 220, 255, .07);
+}
+
+.district-island {
+  fill: rgba(29, 111, 214, .055);
+  stroke: rgba(120, 220, 255, .26);
+}
+
+.russia-outline {
+  fill: none;
+  stroke: rgba(120, 220, 255, .46);
+  stroke-width: 2.4;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.district-south {
+  fill: rgba(35, 211, 195, .22);
+  stroke: rgba(110, 235, 131, .72);
 }
 
 .sfo-shape {
-  fill: rgba(35, 211, 195, .32);
-  stroke: rgba(110, 235, 131, .78);
+  fill: rgba(35, 211, 195, .33);
+  stroke: rgba(110, 235, 131, .95);
   stroke-width: 3;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
 }
 
 .sfo-glow {
   fill: none;
-  stroke: rgba(35, 211, 195, .36);
-  stroke-width: 12;
-  filter: blur(6px);
+  stroke: rgba(35, 211, 195, .5);
+  stroke-width: 16;
+  stroke-linejoin: round;
+  filter: blur(8px);
 }
 
 .center-line {
@@ -3023,6 +3066,14 @@ p {
   stroke-width: 3;
   stroke-linecap: round;
   stroke-dasharray: 9 12;
+}
+
+.center-arrow {
+  fill: none;
+  stroke: rgba(35, 211, 195, .9);
+  stroke-width: 3;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 8px rgba(35, 211, 195, .38));
 }
 
 .center-ping {
@@ -3068,9 +3119,10 @@ p {
 }
 
 .russia-visual .region-pin {
-  left: 24%;
-  top: 70%;
-  transform: translate(-10%, -50%);
+  left: 31%;
+  top: 61%;
+  min-width: 245px;
+  transform: translate(0, -50%);
 }
 
 .region-insights {
@@ -3510,9 +3562,10 @@ p {
   }
 
   .russia-visual .region-pin {
-    left: 28%;
-    top: 70%;
-    transform: translate(-8%, -50%);
+    left: 31%;
+    top: 62%;
+    min-width: 176px;
+    transform: translate(0, -50%);
   }
 
   .map-label-russia {
@@ -3521,7 +3574,7 @@ p {
   }
 
   .map-label-sfo {
-    left: 18%;
+    left: 8%;
     bottom: 56px;
   }
 
